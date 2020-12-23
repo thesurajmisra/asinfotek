@@ -4,7 +4,7 @@
     font-family: Century Gothic;
 }
 header{
-    background-image: url(../computer.jpg);
+    background-image:url(../computer.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -15,9 +15,10 @@ ul{
     margin-top: 20px;
 }
 ul li{
-    display: inline;
+    display: inline-block;
 }
 ul li a{
+    margin-top: 20px;
     text-decoration: none;
     color: #fff;
     padding: 5px 20px;
@@ -58,19 +59,24 @@ ul li.active a{
     top: 62%;
     left: 50%;
     transform: translate(-50%,-50%);
+    color: #fff;
 }
-.btn{
+.btns{
     border: 1px solid #fff;
     padding: 10px 30px;
     color: white;
     text-decoration: none;
+    border:hidden transparent;
     transition: 0.6s ease;
 }
-.btn:hover{
+.btns:hover{
     background-color: aqua;
     color: black;
 }
-li.ubication:hover{
-    background-color: aqua;
-    color: black;
+.card {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.card img{
+
 }
