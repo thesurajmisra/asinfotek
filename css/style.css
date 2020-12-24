@@ -5,7 +5,7 @@
 }
 header{
     background-image:url(../computer.jpg);
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
 }
@@ -45,19 +45,20 @@ ul li.active a{
     margin: auto;
 }
 .title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position:absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-30%,-30%);
 }
 .title h1{
+   text-position:center;
     color: white;
     font-size: 70px;
 }
 .button{
     position: absolute;
-    top: 62%;
-    left: 50%;
+    top: 48%;
+    left: 49%;
     transform: translate(-50%,-50%);
     color: #fff;
 }
